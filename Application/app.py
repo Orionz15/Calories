@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("P:/Dlithe/Project/ML_model/calorie_model.pkl")
+model = joblib.load("calorie_model.pkl")
 
 # Page configuration
 st.set_page_config(
