@@ -8,7 +8,6 @@ model = joblib.load("P:/Dlithe/Project/ML_model/calorie_model.pkl")
 # Page configuration
 st.set_page_config(
     page_title="Calorie Burn Predictor",
-    page_icon="🔥",
     layout="centered"
 )
 
