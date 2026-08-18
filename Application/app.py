@@ -2,8 +2,10 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load trained model
-model = joblib.load("calorie_model.pkl")
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+model = joblib.load(BASE_DIR / "calorie_model.pkl")
 
 # Page configuration
 st.set_page_config(
